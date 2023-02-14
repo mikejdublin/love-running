@@ -59,6 +59,18 @@ h1, h2 {
 
 }
 
+#hero-outer {
+	height: 600px;
+    width: 100%;
+	overflow:hidden;
+
+	position:relative;
+}
+
+#cover-text, #cover-text h2 {
+	color: #fff;
+}
+
 #hero-image {
     height: 600px;
     width: 100%;
@@ -69,12 +81,7 @@ h1, h2 {
 	animation-fill-mode: forwards;
 }
 
-#hero-outer {
-	height: 600px;
-    width: 100%;
-	overflow:hidden;
-	position:relative;
-}
+
 
 /* creates teh level of zoom for the hero image */
  
@@ -87,9 +94,7 @@ h1, h2 {
 	}
 }
 
-#cover-text, #cover-text h2 {
-	color: #fff;
-}
+
 
 #cover-text  {
 	font-size: 130%;
