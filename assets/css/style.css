@@ -73,6 +73,7 @@ h1, h2 {
 	height: 600px;
     width: 100%;
 	overflow:hidden;
+	position:relative;
 }
 
 /* creates teh level of zoom for the hero image */
